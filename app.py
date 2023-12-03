@@ -2,8 +2,8 @@ from ultralytics import YOLO
 from streamlit_webrtc import webrtc_streamer
 import av
 
-# model = YOLO("model/hard_hat_detection_yolov8_20_epoch.pt")
-model = YOLO("model/construction_site_safety_yolov8n_100_epoch.pt")
+model = YOLO("model/hard_hat_detection_yolov8_20_epoch.pt")
+# model = YOLO("model/construction_site_safety_yolov8n_100_epoch.pt")
 
 
 def video_frame_callback(frame):
