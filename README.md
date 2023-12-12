@@ -1,3 +1,9 @@
+# Current Progress on Drunk Detection Model (see related [paper](https://www.intechopen.com/chapters/58738?fbclid=IwAR120nzkqdIO9eZ2brhIY6LnwabwlyU7S6JzmW_8JBJgvz9dBxa5N61_hUE))
+1. Ordered Thermal Camera **TOPDON TC001**. (camera specs [here](https://www.amazon.com/Thermal-Android-TOPDON-256x192-Resolution/dp/B0B7LMB22Q))
+2. Planning to collect drunk/sober face thermal image data on New Year's time.
+3. Evaluate [existing model](https://github.com/NSEvent/drunk-detection-CNN) performance using this thermal camera and our dataset samples.
+4. Retrain new model on combined dataset.
+
 # References
 ## Video Stream Processing in APP
 https://github.com/whitphx/streamlit-webrtc?ref=blog.streamlit.io
